@@ -53,3 +53,5 @@ except KeyboardInterrupt:
     print("[+] Detected CTRL + C ..... Resetting ARP tables.... Please wait. \n")
     restore(options.target_ip, options.gateway_ip)
     restore(options.gateway_ip, options.target_ip)
+
+    
