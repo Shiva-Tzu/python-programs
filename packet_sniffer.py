@@ -10,7 +10,7 @@ def get_arguments():
     parser.add_option("--i", "--interface", dest="interface", help="Insert the interface. For example: wlan0")
     (options, arguments) = parser.parse_args()
     if not options.interface:
-        parser.error("[-] Please specify the target network IP address. Use --help for more info")
+        parser.error("[-] Please specify the interace. Use --help for more info")
     return options
 
 
