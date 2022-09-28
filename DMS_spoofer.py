@@ -33,7 +33,7 @@ def process_packet(packet):
 
     packet.accept()
 
-
+    
 options = get_arguments()
 queue = netfilterqueue.NetfilterQueue()
 queue.bind(0, process_packet)
